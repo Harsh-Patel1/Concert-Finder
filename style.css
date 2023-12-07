@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+}
+
+#menu_page_header {
+    background-color: #2E6449;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+#page_content {
+    margin: 2%;
+}
+
+#upcoming_events_iframe {
+    border: none;
+    height: 500px;
+    width: 75%;
+}
