@@ -1,1 +1,0 @@
-#empty team agreement file
