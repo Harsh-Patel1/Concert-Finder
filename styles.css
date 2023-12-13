@@ -2,6 +2,7 @@
 * https://www.w3schools.com/css/css3_buttons.asp 
 * https://developer.mozilla.org/en-US/docs/Web/CSS/padding
 * https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style
+* https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 * https://www.w3schools.com/cssref/pr_font_weight.php#:~:text=The%20font%2Dweight%20property%20sets,in%20text%20should%20be%20displayed.*/
 body {
     margin: 0;
@@ -66,7 +67,7 @@ button, .button {
 button:hover, .button:hover {
     background-color: #367c39;
 }
-
+/* Medium devices, 768px and below */
 @media (max-width: 768px) {
     #menu_page_header, #menu_page_content, #search_page_content {
         padding: 1rem;
