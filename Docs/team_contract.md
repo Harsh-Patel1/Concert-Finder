@@ -27,4 +27,4 @@ Acknowledgment:
 This contract has been discussed and agreed upon by all team members. We acknowledge that this is not set in stone and can be modified.
 
 Team Member Signatures (Initials):
-HP, AM
+HP, AM, GS
