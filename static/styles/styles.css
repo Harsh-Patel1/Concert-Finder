@@ -1,0 +1,93 @@
+/* Resources :
+* https://www.w3schools.com/css/css3_buttons.asp 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+* https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style
+* https://www.w3schools.com/cssref/pr_font_weight.php#:~:text=The%20font%2Dweight%20property%20sets,in%20text%20should%20be%20displayed.*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+#menu_page_header {
+    background-color: #2E6449;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#menu_page_content, #search_page_content {
+    padding: 2.5%;
+    background-color: #2E6449;
+    color: #FFFFFF;
+}
+
+#page_content {
+    padding: 2%;
+}
+
+#upcoming_events_iframe {
+    border: none;
+    height: 500px;
+    width: 100%;
+    max-width: 1200px; 
+    display: block;
+    margin: auto;
+}
+
+#search {
+    padding: 2.5%;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+button, .button {
+    background-color: #4CAF50; /* Adjust to fit your color scheme */
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: #367c39;
+}
+
+
+@media (max-width: 768px) {
+    #menu_page_header, #menu_page_content, #search_page_content {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Accessibility considerations */
+a, button {
+    outline: none;
+}
+
+a:focus, button:focus {
+    /* Outlines the buttons for accecibility consideration */
+    outline: 2px dashed #4CAF50; 
+}
